@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La bourse High-Tech du 15 Janvier 2022</title>
+    <link rel="stylesheet" href="assets/css/styleformulaire.css">
+</head>
+
+<body>
+    <!--Partie gauche de la page-->
+    <aside>
+        <img id="logo" src="assets/img/LogoA.png" alt="logo X-Tec" title="logo X-Tec"> 
+        <div class="bande">
+            <p><strong>La Technologie s’installe 
+                <br> chez vous!</strong>
+                <br>
+                <br>Venez, découvrez, profitez
+                <br>
+                <br>
+                <img id="qrcode"src="assets/img/QRCode.jpg" alt="qrcode" title="qrcode">
+                <br>Flashcode d’adhésion
+            </p>
+        </div>
+    </aside>
+
+    <!--Haut de page/ bannière-->
+    <section>
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbox">
+                <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">X-Tec</label>
+                <ul>
+                    <li>
+                        <a class="active" href="./index.html">Accueil</a>
+                        <a href="./unfolding.html">Déroulement</a>
+                        <a href="./acessplan.html">Plan d'accès</a>
+                        <a href="./infoscovid.html">Infos Covid-19</a>
+                        <a href="./formulaire.html">Réservation</a>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="barrehorizontal">
+            <article>
+                <img src="assets/img/image.png" alt="imgreservation" title="imgreservation">
+            </article>
+            <aside class="aside"> 
+                <!-- integre le formulaire de claire -->
+                <fieldset>
+                    <form action="formulaire">
+                        <!-- Formulaire d'inscription -->
+                        <legend><strong>Formulaire d'inscription</strong></legend>
+                        <br>
+
+                        <label for="lastname">Vous êtes : </label><br>
+
+                        <input class="check" type="radio" id="cartechoice2" name="card" value="mastercard">
+                        <label for="cartechoice2">Exposant</label><br>
+                        
+                        <input class="check" type="radio" id="cartechoice2" name="card" value="mastercard">
+                        <label for="cartechoice2">Visiteur</label><br>
+                        <br>
+                        <label for="lastname">Nom : </label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Nom"><br>
+
+                        <label for="firsname">Prénom :</label>
+                        <input autocomplete="name" id="firsname" type="text" name="firsname" placeholder="Prénom"><br>
+                        
+                        <label for="mail" >Adresse mail :</label>
+                        <input id="mail" type="email" name="mail" placeholder="adresse email"><br>
+                        
+                        <label for="adress">Adresse :</label>
+                        <textarea id="adress" name="adress" placeholder="adresse"></textarea><br>
+                        
+                        <label for="zipCode">Code postal :</label>
+                        <input id="zipCode" type="text" name="zipcode" placeholder="Code postal"><br> 
+                        
+                        <label for="town" >Ville :</label>
+                        <input id="town" name="ville" placeholder="Ville"><br>
+                        
+                        <label for="number">Nombre de mètre souhaité</label>
+                        <input id="number" type="number" name="number" min="0" max="10"><br>
+                        <br>
+                        <label for="type">Type de carte bancaire :</label>
+                        <br>
+                        <input class="check" type="radio" id="cartechoice1" name="card" value="visa">                      
+                        <label for="cartechoice1">Visa</label>
+                        
+                        <input class="check" type="radio" id="cartechoice2" name="card" value="mastercard">
+                        <label for="cartechoice2">Mastercard</label><br>
+                        
+                        <label for="number" >Numero de carte :</label>
+                        <input type="text" id="number" name="carNumber" placeholder="Numéro de carte"><br>
+                        
+                        <label for="security">Code de securité :</label>
+                        <input type="text" id="security" name="security" placeholder="Code de sécurité "><br>
+                        
+                        <label for="holder">Nom du titulaire :</label>
+                        <input type="text" id="holder" name="holder" required placeholder="Nom du titulaire"><br>
+                        <br>
+                        <input type="submit" value="S'inscrire & Réserver!">
+                    </form>
+                </fieldset> 
+            </aside>
+        </div>
+        <footer>
+        </footer>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="assets/js/script.js"></script> 
+</body>
+</html>
